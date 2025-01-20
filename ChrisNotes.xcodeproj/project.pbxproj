@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		83D1AA922D2D2678004C673B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D1AA782D2D2676004C673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D1AA7F2D2D2676004C673B;
+			remoteInfo = ChrisNotes;
+		};
+		83D1AA9C2D2D2678004C673B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D1AA782D2D2676004C673B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D1AA7F2D2D2676004C673B;
+			remoteInfo = ChrisNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D1AA802D2D2676004C673B /* ChrisNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChrisNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1AA912D2D2678004C673B /* ChrisNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChrisNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1AA9B2D2D2678004C673B /* ChrisNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChrisNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		83D9A6812D2F29D900A333CC /* Exceptions for "ChrisNotes" folder in "ChrisNotes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 83D1AA7F2D2D2676004C673B /* ChrisNotes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		83D1AA822D2D2676004C673B /* ChrisNotes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				83D9A6812D2F29D900A333CC /* Exceptions for "ChrisNotes" folder in "ChrisNotes" target */,
+			);
+			path = ChrisNotes;
+			sourceTree = "<group>";
+		};
+		83D1AA942D2D2678004C673B /* ChrisNotesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChrisNotesTests;
+			sourceTree = "<group>";
+		};
+		83D1AA9E2D2D2678004C673B /* ChrisNotesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChrisNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D1AA7D2D2D2676004C673B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1AA8E2D2D2678004C673B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1AA982D2D2678004C673B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D1AA772D2D2676004C673B = {
+			isa = PBXGroup;
+			children = (
+				83D1AA822D2D2676004C673B /* ChrisNotes */,
+				83D1AA942D2D2678004C673B /* ChrisNotesTests */,
+				83D1AA9E2D2D2678004C673B /* ChrisNotesUITests */,
+				83D1AA812D2D2676004C673B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D1AA812D2D2676004C673B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D1AA802D2D2676004C673B /* ChrisNotes.app */,
+				83D1AA912D2D2678004C673B /* ChrisNotesTests.xctest */,
+				83D1AA9B2D2D2678004C673B /* ChrisNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D1AA7F2D2D2676004C673B /* ChrisNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D1AAA52D2D2678004C673B /* Build configuration list for PBXNativeTarget "ChrisNotes" */;
+			buildPhases = (
+				83D1AA7C2D2D2676004C673B /* Sources */,
+				83D1AA7D2D2D2676004C673B /* Frameworks */,
+				83D1AA7E2D2D2676004C673B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				83D1AA822D2D2676004C673B /* ChrisNotes */,
+			);
+			name = ChrisNotes;
+			packageProductDependencies = (
+			);
+			productName = ChrisNotes;
+			productReference = 83D1AA802D2D2676004C673B /* ChrisNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D1AA902D2D2678004C673B /* ChrisNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D1AAA82D2D2678004C673B /* Build configuration list for PBXNativeTarget "ChrisNotesTests" */;
+			buildPhases = (
+				83D1AA8D2D2D2678004C673B /* Sources */,
+				83D1AA8E2D2D2678004C673B /* Frameworks */,
+				83D1AA8F2D2D2678004C673B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D1AA932D2D2678004C673B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83D1AA942D2D2678004C673B /* ChrisNotesTests */,
+			);
+			name = ChrisNotesTests;
+			packageProductDependencies = (
+			);
+			productName = ChrisNotesTests;
+			productReference = 83D1AA912D2D2678004C673B /* ChrisNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83D1AA9A2D2D2678004C673B /* ChrisNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D1AAAB2D2D2678004C673B /* Build configuration list for PBXNativeTarget "ChrisNotesUITests" */;
+			buildPhases = (
+				83D1AA972D2D2678004C673B /* Sources */,
+				83D1AA982D2D2678004C673B /* Frameworks */,
+				83D1AA992D2D2678004C673B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D1AA9D2D2D2678004C673B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				83D1AA9E2D2D2678004C673B /* ChrisNotesUITests */,
+			);
+			name = ChrisNotesUITests;
+			packageProductDependencies = (
+			);
+			productName = ChrisNotesUITests;
+			productReference = 83D1AA9B2D2D2678004C673B /* ChrisNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D1AA782D2D2676004C673B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					83D1AA7F2D2D2676004C673B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					83D1AA902D2D2678004C673B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 83D1AA7F2D2D2676004C673B;
+					};
+					83D1AA9A2D2D2678004C673B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 83D1AA7F2D2D2676004C673B;
+					};
+				};
+			};
+			buildConfigurationList = 83D1AA7B2D2D2676004C673B /* Build configuration list for PBXProject "ChrisNotes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D1AA772D2D2676004C673B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 83D1AA812D2D2676004C673B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D1AA7F2D2D2676004C673B /* ChrisNotes */,
+				83D1AA902D2D2678004C673B /* ChrisNotesTests */,
+				83D1AA9A2D2D2678004C673B /* ChrisNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D1AA7E2D2D2676004C673B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1AA8F2D2D2678004C673B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1AA992D2D2678004C673B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D1AA7C2D2D2676004C673B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1AA8D2D2D2678004C673B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D1AA972D2D2678004C673B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D1AA932D2D2678004C673B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D1AA7F2D2D2676004C673B /* ChrisNotes */;
+			targetProxy = 83D1AA922D2D2678004C673B /* PBXContainerItemProxy */;
+		};
+		83D1AA9D2D2D2678004C673B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D1AA7F2D2D2676004C673B /* ChrisNotes */;
+			targetProxy = 83D1AA9C2D2D2678004C673B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83D1AAA32D2D2678004C673B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D1AAA42D2D2678004C673B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		83D1AAA62D2D2678004C673B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChrisNotes/ChrisNotes.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChrisNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCHPBGC6P7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChrisNotes/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.ChrisNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83D1AAA72D2D2678004C673B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChrisNotes/ChrisNotes.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChrisNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCHPBGC6P7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChrisNotes/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chris.ChrisNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		83D1AAA92D2D2678004C673B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCHPBGC6P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balls.ChrisNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChrisNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChrisNotes";
+			};
+			name = Debug;
+		};
+		83D1AAAA2D2D2678004C673B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCHPBGC6P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balls.ChrisNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChrisNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChrisNotes";
+			};
+			name = Release;
+		};
+		83D1AAAC2D2D2678004C673B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCHPBGC6P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balls.ChrisNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChrisNotes;
+			};
+			name = Debug;
+		};
+		83D1AAAD2D2D2678004C673B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCHPBGC6P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = balls.ChrisNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChrisNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D1AA7B2D2D2676004C673B /* Build configuration list for PBXProject "ChrisNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1AAA32D2D2678004C673B /* Debug */,
+				83D1AAA42D2D2678004C673B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D1AAA52D2D2678004C673B /* Build configuration list for PBXNativeTarget "ChrisNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1AAA62D2D2678004C673B /* Debug */,
+				83D1AAA72D2D2678004C673B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D1AAA82D2D2678004C673B /* Build configuration list for PBXNativeTarget "ChrisNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1AAA92D2D2678004C673B /* Debug */,
+				83D1AAAA2D2D2678004C673B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D1AAAB2D2D2678004C673B /* Build configuration list for PBXNativeTarget "ChrisNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D1AAAC2D2D2678004C673B /* Debug */,
+				83D1AAAD2D2D2678004C673B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D1AA782D2D2676004C673B /* Project object */;
+}
