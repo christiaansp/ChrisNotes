@@ -10,7 +10,7 @@ class SummarizationService {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("Bearer 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", forHTTPHeaderField: "Authorization")
+        request.setValue("Bearer hf_xxxxxxxxxxxx", forHTTPHeaderField: "Authorization")
 
         let payload: [String: Any] = [
             "inputs": text,
